@@ -10,4 +10,7 @@ describe("alltest",()=>{
       test("sum",()=>{
         expect(sum(2,991)).toBe(993);
     })
+    test("sum",()=>{
+        expect(sum(2,91)).toBe(93);
+    })
 })
